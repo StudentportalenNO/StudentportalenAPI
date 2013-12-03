@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Owin;
 using Owin;
+using StudentportalenAPI.App_Start;
 
 [assembly: OwinStartup(typeof(StudentportalenAPI.Startup))]
 
