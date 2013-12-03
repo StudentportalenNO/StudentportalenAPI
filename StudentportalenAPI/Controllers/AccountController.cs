@@ -26,7 +26,7 @@ namespace StudentportalenAPI.Controllers
         private const string LocalLoginProvider = "Local";
 
         public AccountController()
-            : this(Startup.UserManagerFactory(), Startup.OAuthOptions.AccessTokenFormat)
+            : this(App_Start.Startup.UserManagerFactory(), App_Start.Startup.OAuthOptions.AccessTokenFormat)
         {
         }
 
@@ -299,7 +299,7 @@ namespace StudentportalenAPI.Controllers
                     {
                         provider = description.AuthenticationType,
                         response_type = "token",
-                        client_id = Startup.PublicClientId,
+                        client_id = App_Start.Startup.PublicClientId,
                         redirect_uri = new Uri(Request.RequestUri, returnUrl).AbsoluteUri,
                         state = state
                     }),

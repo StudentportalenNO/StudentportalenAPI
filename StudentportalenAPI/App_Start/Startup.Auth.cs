@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin;
@@ -9,7 +7,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using StudentportalenAPI.Providers;
 
-namespace StudentportalenAPI
+namespace StudentportalenAPI.App_Start
 {
     public partial class Startup
     {
