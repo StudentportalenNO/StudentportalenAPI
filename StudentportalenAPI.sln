@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentportalenAPI", "StudentportalenAPI\StudentportalenAPI.csproj", "{396A6F57-7A7D-440B-82CA-BCFD05D6A51A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentportalenAPI.Tests", "StudentportalenAPI.Tests\StudentportalenAPI.Tests.csproj", "{B0BF6469-160E-4A07-8BA7-F1153BF5CDFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{396A6F57-7A7D-440B-82CA-BCFD05D6A51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396A6F57-7A7D-440B-82CA-BCFD05D6A51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396A6F57-7A7D-440B-82CA-BCFD05D6A51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396A6F57-7A7D-440B-82CA-BCFD05D6A51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0BF6469-160E-4A07-8BA7-F1153BF5CDFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0BF6469-160E-4A07-8BA7-F1153BF5CDFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0BF6469-160E-4A07-8BA7-F1153BF5CDFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0BF6469-160E-4A07-8BA7-F1153BF5CDFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
