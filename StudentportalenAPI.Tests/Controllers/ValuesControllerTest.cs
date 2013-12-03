@@ -6,7 +6,7 @@ using System.Text;
 using System.Web.Http;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using StudentportalenAPI;
-using StudentportalenAPI.Controllers;
+using StudentportalenAPI.Web.Controllers;
 
 namespace StudentportalenAPI.Tests.Controllers
 {

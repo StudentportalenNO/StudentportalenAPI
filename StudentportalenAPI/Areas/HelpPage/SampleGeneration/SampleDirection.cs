@@ -1,4 +1,4 @@
-namespace StudentportalenAPI.Areas.HelpPage
+namespace StudentportalenAPI.Web.Areas.HelpPage.SampleGeneration
 {
     /// <summary>
     /// Indicates whether the sample is used for request or response

@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace StudentportalenAPI.Models
+namespace StudentportalenAPI.Web.Models
 {
     // Models returned by AccountController actions.
 

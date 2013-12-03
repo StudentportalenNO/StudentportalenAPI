@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace StudentportalenAPI.App_Start
+namespace StudentportalenAPI.Web.App_Start
 {
     public class FilterConfig
     {

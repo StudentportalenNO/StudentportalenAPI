@@ -1,23 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
-using System.Web.Http.ModelBinding;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
-using StudentportalenAPI.Models;
-using StudentportalenAPI.Providers;
-using StudentportalenAPI.Results;
+using StudentportalenAPI.Web.App_Start;
+using StudentportalenAPI.Web.Models;
+using StudentportalenAPI.Web.Providers;
+using StudentportalenAPI.Web.Results;
 
-namespace StudentportalenAPI.Controllers
+namespace StudentportalenAPI.Web.Controllers
 {
     [Authorize]
     [RoutePrefix("api/Account")]
@@ -26,7 +25,7 @@ namespace StudentportalenAPI.Controllers
         private const string LocalLoginProvider = "Local";
 
         public AccountController()
-            : this(App_Start.Startup.UserManagerFactory(), App_Start.Startup.OAuthOptions.AccessTokenFormat)
+            : this(Startup.UserManagerFactory(), Startup.OAuthOptions.AccessTokenFormat)
         {
         }
 
@@ -299,7 +298,7 @@ namespace StudentportalenAPI.Controllers
                     {
                         provider = description.AuthenticationType,
                         response_type = "token",
-                        client_id = App_Start.Startup.PublicClientId,
+                        client_id = Startup.PublicClientId,
                         redirect_uri = new Uri(Request.RequestUri, returnUrl).AbsoluteUri,
                         state = state
                     }),

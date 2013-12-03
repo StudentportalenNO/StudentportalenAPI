@@ -1,9 +1,9 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using StudentportalenAPI.Areas.HelpPage.Models;
+using StudentportalenAPI.Web.Areas.HelpPage.Models;
 
-namespace StudentportalenAPI.Areas.HelpPage.Controllers
+namespace StudentportalenAPI.Web.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

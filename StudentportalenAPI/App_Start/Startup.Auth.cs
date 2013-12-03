@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
-using StudentportalenAPI.Providers;
+using StudentportalenAPI.Web.Providers;
 
-namespace StudentportalenAPI.App_Start
+namespace StudentportalenAPI.Web.App_Start
 {
     public partial class Startup
     {

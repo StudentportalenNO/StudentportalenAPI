@@ -7,9 +7,10 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Description;
-using StudentportalenAPI.Areas.HelpPage.Models;
+using StudentportalenAPI.Web.Areas.HelpPage.Models;
+using StudentportalenAPI.Web.Areas.HelpPage.SampleGeneration;
 
-namespace StudentportalenAPI.Areas.HelpPage
+namespace StudentportalenAPI.Web.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

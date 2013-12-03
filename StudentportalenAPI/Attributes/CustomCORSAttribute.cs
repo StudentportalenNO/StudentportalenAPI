@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Web.Cors;
 using System.Web.Http.Cors;
 
-namespace StudentportalenAPI.Attributes
+namespace StudentportalenAPI.Web.Attributes
 {
     public class CustomCORSAttribute : Attribute, ICorsPolicyProvider
     {

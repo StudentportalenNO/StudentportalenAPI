@@ -1,10 +1,10 @@
 ﻿using Microsoft.Owin;
 using Owin;
-using StudentportalenAPI.App_Start;
+using StudentportalenAPI.Web.App_Start;
 
 [assembly: OwinStartup(typeof(Startup))]
 
-namespace StudentportalenAPI.App_Start
+namespace StudentportalenAPI.Web.App_Start
 {
     public partial class Startup
     {

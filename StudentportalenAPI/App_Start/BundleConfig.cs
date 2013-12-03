@@ -1,6 +1,6 @@
 ﻿using System.Web.Optimization;
 
-namespace StudentportalenAPI.App_Start
+namespace StudentportalenAPI.Web.App_Start
 {
     public class BundleConfig
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
 
-namespace StudentportalenAPI.Controllers
+namespace StudentportalenAPI.Web.Controllers
 {
     [Authorize]
     public class ValuesController : ApiController

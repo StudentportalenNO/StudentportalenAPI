@@ -2,7 +2,7 @@
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
 
-namespace StudentportalenAPI.App_Start
+namespace StudentportalenAPI.Web.App_Start
 {
     public static class WebApiConfig
     {

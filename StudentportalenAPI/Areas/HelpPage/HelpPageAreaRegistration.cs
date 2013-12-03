@@ -1,7 +1,8 @@
 using System.Web.Http;
 using System.Web.Mvc;
+using StudentportalenAPI.Web.Areas.HelpPage.App_Start;
 
-namespace StudentportalenAPI.Areas.HelpPage
+namespace StudentportalenAPI.Web.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {
