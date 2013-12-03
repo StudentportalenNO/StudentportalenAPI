@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentportalenAPI", "StudentportalenAPI\StudentportalenAPI.csproj", "{396A6F57-7A7D-440B-82CA-BCFD05D6A51A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentportalenAPI.Web", "StudentportalenAPI.Web\StudentportalenAPI.Web.csproj", "{396A6F57-7A7D-440B-82CA-BCFD05D6A51A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentportalenAPI.Tests", "StudentportalenAPI.Tests\StudentportalenAPI.Tests.csproj", "{B0BF6469-160E-4A07-8BA7-F1153BF5CDFA}"
 EndProject

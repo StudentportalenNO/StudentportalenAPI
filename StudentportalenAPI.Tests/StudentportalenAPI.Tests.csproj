@@ -101,9 +101,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StudentportalenAPI\StudentportalenAPI.csproj">
+    <ProjectReference Include="..\StudentportalenAPI.Web\StudentportalenAPI.Web.csproj">
       <Project>{396A6F57-7A7D-440B-82CA-BCFD05D6A51A}</Project>
-      <Name>StudentportalenAPI</Name>
+      <Name>StudentportalenAPI.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
