@@ -103,6 +103,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\StudentportalenAPI.DAL\StudentportalenAPI.DAL.csproj">
+      <Project>{ccb033ca-76e7-4522-bc4b-5612284c4e1f}</Project>
+      <Name>StudentportalenAPI.DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\StudentportalenAPI.Web\StudentportalenAPI.Web.csproj">
       <Project>{396A6F57-7A7D-440B-82CA-BCFD05D6A51A}</Project>
       <Name>StudentportalenAPI.Web</Name>

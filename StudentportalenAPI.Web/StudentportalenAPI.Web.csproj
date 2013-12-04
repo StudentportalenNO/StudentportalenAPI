@@ -261,6 +261,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StudentportalenAPI.DAL\StudentportalenAPI.DAL.csproj">
+      <Project>{ccb033ca-76e7-4522-bc4b-5612284c4e1f}</Project>
+      <Name>StudentportalenAPI.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StudentportalenAPI.Models\StudentportalenAPI.Models.csproj">
+      <Project>{e96b9d51-2c95-48bb-b219-8fb8b5e36006}</Project>
+      <Name>StudentportalenAPI.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
